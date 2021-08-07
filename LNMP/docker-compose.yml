@@ -1,0 +1,28 @@
+version: "3"
+services:
+  nginx:
+    image: nginx
+    ports: 
+      - "80:80"
+    volumes: 
+      - ./nginx/www:/usr/share/nginx/html
+      - ./nginx/nginx-conf/conf.d:/etc/nginx/conf.d
+      - ./nginx/nginx-log:/var/log/nginx
+    networks:
+      - web-net
+  php:
+    image: phpdockerio/php7-fpm
+    volumes:
+      - ./nginx/www:/web
+    networks:
+      - web-net
+  mysql:
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    networks:
+      - web-net
+networks: 
+  web-net:

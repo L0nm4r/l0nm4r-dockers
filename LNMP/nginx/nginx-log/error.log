@@ -1,0 +1,295 @@
+2021/07/07 06:54:48 [notice] 1#1: using the "epoll" event method
+2021/07/07 06:54:48 [notice] 1#1: nginx/1.21.1
+2021/07/07 06:54:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 06:54:48 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 06:54:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 06:54:48 [notice] 1#1: start worker processes
+2021/07/07 06:54:48 [notice] 1#1: start worker process 27
+2021/07/07 06:54:48 [notice] 1#1: start worker process 28
+2021/07/07 06:54:48 [notice] 1#1: start worker process 29
+2021/07/07 06:54:48 [notice] 1#1: start worker process 30
+2021/07/07 06:54:58 [error] 27#27: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2021/07/07 06:55:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 06:55:09 [notice] 27#27: gracefully shutting down
+2021/07/07 06:55:09 [notice] 28#28: gracefully shutting down
+2021/07/07 06:55:09 [notice] 29#29: gracefully shutting down
+2021/07/07 06:55:09 [notice] 30#30: gracefully shutting down
+2021/07/07 06:55:09 [notice] 28#28: exiting
+2021/07/07 06:55:09 [notice] 29#29: exiting
+2021/07/07 06:55:09 [notice] 30#30: exiting
+2021/07/07 06:55:09 [notice] 28#28: exit
+2021/07/07 06:55:09 [notice] 29#29: exit
+2021/07/07 06:55:09 [notice] 30#30: exit
+2021/07/07 06:55:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/07/07 06:55:10 [notice] 1#1: worker process 28 exited with code 0
+2021/07/07 06:55:10 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 06:55:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/07/07 06:55:10 [notice] 1#1: worker process 29 exited with code 0
+2021/07/07 06:55:10 [notice] 1#1: worker process 30 exited with code 0
+2021/07/07 06:55:10 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 06:55:41 [notice] 1#1: using the "epoll" event method
+2021/07/07 06:55:41 [notice] 1#1: nginx/1.21.1
+2021/07/07 06:55:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 06:55:41 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 06:55:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 06:55:41 [notice] 1#1: start worker processes
+2021/07/07 06:55:41 [notice] 1#1: start worker process 24
+2021/07/07 06:55:41 [notice] 1#1: start worker process 25
+2021/07/07 06:55:41 [notice] 1#1: start worker process 26
+2021/07/07 06:55:41 [notice] 1#1: start worker process 27
+2021/07/07 06:55:45 [error] 25#25: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2021/07/07 06:59:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 06:59:59 [notice] 24#24: gracefully shutting down
+2021/07/07 06:59:59 [notice] 27#27: gracefully shutting down
+2021/07/07 06:59:59 [notice] 25#25: gracefully shutting down
+2021/07/07 06:59:59 [notice] 26#26: gracefully shutting down
+2021/07/07 06:59:59 [notice] 24#24: exiting
+2021/07/07 06:59:59 [notice] 24#24: exit
+2021/07/07 06:59:59 [notice] 27#27: exiting
+2021/07/07 06:59:59 [notice] 27#27: exit
+2021/07/07 06:59:59 [notice] 25#25: exiting
+2021/07/07 06:59:59 [notice] 26#26: exiting
+2021/07/07 06:59:59 [notice] 25#25: exit
+2021/07/07 06:59:59 [notice] 26#26: exit
+2021/07/07 06:59:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/07/07 06:59:59 [notice] 1#1: worker process 25 exited with code 0
+2021/07/07 06:59:59 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 06:59:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/07/07 06:59:59 [notice] 1#1: worker process 24 exited with code 0
+2021/07/07 06:59:59 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 06:59:59 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 06:59:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/07 06:59:59 [notice] 1#1: worker process 26 exited with code 0
+2021/07/07 06:59:59 [notice] 1#1: exit
+2021/07/07 07:00:19 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:00:19 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:00:19 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:00:19 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:00:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:00:19 [notice] 1#1: start worker processes
+2021/07/07 07:00:19 [notice] 1#1: start worker process 31
+2021/07/07 07:00:19 [notice] 1#1: start worker process 32
+2021/07/07 07:00:19 [notice] 1#1: start worker process 33
+2021/07/07 07:00:19 [notice] 1#1: start worker process 34
+2021/07/07 07:00:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:00:54 [notice] 31#31: gracefully shutting down
+2021/07/07 07:00:54 [notice] 33#33: gracefully shutting down
+2021/07/07 07:00:54 [notice] 34#34: gracefully shutting down
+2021/07/07 07:00:54 [notice] 34#34: exiting
+2021/07/07 07:00:54 [notice] 32#32: gracefully shutting down
+2021/07/07 07:00:54 [notice] 33#33: exiting
+2021/07/07 07:00:54 [notice] 34#34: exit
+2021/07/07 07:00:54 [notice] 32#32: exiting
+2021/07/07 07:00:54 [notice] 33#33: exit
+2021/07/07 07:00:54 [notice] 32#32: exit
+2021/07/07 07:00:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/07 07:00:54 [notice] 1#1: worker process 33 exited with code 0
+2021/07/07 07:00:54 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:00:54 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/07 07:00:54 [notice] 1#1: worker process 32 exited with code 0
+2021/07/07 07:00:54 [notice] 1#1: worker process 34 exited with code 0
+2021/07/07 07:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:01:18 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:01:18 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:01:18 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:01:18 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:01:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:01:18 [notice] 1#1: start worker processes
+2021/07/07 07:01:18 [notice] 1#1: start worker process 25
+2021/07/07 07:01:18 [notice] 1#1: start worker process 26
+2021/07/07 07:01:18 [notice] 1#1: start worker process 27
+2021/07/07 07:01:18 [notice] 1#1: start worker process 28
+2021/07/07 07:01:23 [alert] 25#25: *1634 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2021/07/07 07:01:23 [error] 25#25: *1634 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2021/07/07 07:01:24 [alert] 25#25: *3602 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2021/07/07 07:01:24 [error] 25#25: *3602 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2021/07/07 07:02:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:02:07 [notice] 27#27: gracefully shutting down
+2021/07/07 07:02:07 [notice] 27#27: exiting
+2021/07/07 07:02:07 [notice] 26#26: gracefully shutting down
+2021/07/07 07:02:07 [notice] 28#28: gracefully shutting down
+2021/07/07 07:02:07 [notice] 28#28: exiting
+2021/07/07 07:02:07 [notice] 25#25: gracefully shutting down
+2021/07/07 07:02:07 [notice] 27#27: exit
+2021/07/07 07:02:07 [notice] 28#28: exit
+2021/07/07 07:02:07 [notice] 25#25: exiting
+2021/07/07 07:02:07 [notice] 25#25: exit
+2021/07/07 07:02:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/07/07 07:02:07 [notice] 1#1: worker process 25 exited with code 0
+2021/07/07 07:02:07 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 07:02:07 [notice] 1#1: worker process 28 exited with code 0
+2021/07/07 07:02:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:02:07 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/07/07 07:02:26 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:02:26 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:02:26 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:02:26 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:02:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:02:26 [notice] 1#1: start worker processes
+2021/07/07 07:02:26 [notice] 1#1: start worker process 25
+2021/07/07 07:02:26 [notice] 1#1: start worker process 26
+2021/07/07 07:02:26 [notice] 1#1: start worker process 27
+2021/07/07 07:02:26 [notice] 1#1: start worker process 28
+2021/07/07 07:02:28 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:28 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:29 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:29 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:29 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:29 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:30 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:30 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:30 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:30 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:36 [error] 25#25: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:02:36 [error] 25#25: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:04:51 [error] 25#25: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:04:51 [error] 25#25: *9 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:05:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:05:00 [notice] 25#25: gracefully shutting down
+2021/07/07 07:05:00 [notice] 27#27: gracefully shutting down
+2021/07/07 07:05:00 [notice] 28#28: gracefully shutting down
+2021/07/07 07:05:00 [notice] 26#26: gracefully shutting down
+2021/07/07 07:05:00 [notice] 25#25: exiting
+2021/07/07 07:05:00 [notice] 28#28: exiting
+2021/07/07 07:05:00 [notice] 26#26: exiting
+2021/07/07 07:05:00 [notice] 25#25: exit
+2021/07/07 07:05:00 [notice] 28#28: exit
+2021/07/07 07:05:00 [notice] 26#26: exit
+2021/07/07 07:05:00 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/07/07 07:05:00 [notice] 1#1: worker process 25 exited with code 0
+2021/07/07 07:05:00 [notice] 1#1: worker process 28 exited with code 0
+2021/07/07 07:05:00 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:05:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/07 07:05:00 [notice] 1#1: worker process 26 exited with code 0
+2021/07/07 07:05:00 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:05:17 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:05:17 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:05:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:05:17 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:05:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:05:17 [notice] 1#1: start worker processes
+2021/07/07 07:05:17 [notice] 1#1: start worker process 26
+2021/07/07 07:05:17 [notice] 1#1: start worker process 27
+2021/07/07 07:05:17 [notice] 1#1: start worker process 28
+2021/07/07 07:05:17 [notice] 1#1: start worker process 29
+2021/07/07 07:06:23 [error] 26#26: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:23 [error] 26#26: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:23 [error] 26#26: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:23 [error] 26#26: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:53 [error] 26#26: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:53 [error] 26#26: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2021/07/07 07:06:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:06:56 [notice] 26#26: gracefully shutting down
+2021/07/07 07:06:56 [notice] 28#28: gracefully shutting down
+2021/07/07 07:06:56 [notice] 28#28: exiting
+2021/07/07 07:06:56 [notice] 29#29: gracefully shutting down
+2021/07/07 07:06:56 [notice] 27#27: gracefully shutting down
+2021/07/07 07:06:56 [notice] 28#28: exit
+2021/07/07 07:06:56 [notice] 29#29: exiting
+2021/07/07 07:06:56 [notice] 27#27: exiting
+2021/07/07 07:06:56 [notice] 29#29: exit
+2021/07/07 07:06:56 [notice] 27#27: exit
+2021/07/07 07:06:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/07/07 07:06:56 [notice] 1#1: worker process 28 exited with code 0
+2021/07/07 07:06:56 [notice] 1#1: worker process 29 exited with code 0
+2021/07/07 07:06:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:06:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/07/07 07:06:56 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 07:06:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:07:44 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:07:44 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:07:44 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:07:44 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:07:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:07:44 [notice] 1#1: start worker processes
+2021/07/07 07:07:44 [notice] 1#1: start worker process 24
+2021/07/07 07:07:44 [notice] 1#1: start worker process 25
+2021/07/07 07:07:44 [notice] 1#1: start worker process 26
+2021/07/07 07:07:44 [notice] 1#1: start worker process 27
+2021/07/07 07:08:52 [error] 26#26: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:09:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:09:36 [notice] 25#25: gracefully shutting down
+2021/07/07 07:09:36 [notice] 24#24: gracefully shutting down
+2021/07/07 07:09:36 [notice] 26#26: gracefully shutting down
+2021/07/07 07:09:36 [notice] 26#26: exiting
+2021/07/07 07:09:36 [notice] 27#27: gracefully shutting down
+2021/07/07 07:09:36 [notice] 27#27: exiting
+2021/07/07 07:09:36 [notice] 24#24: exiting
+2021/07/07 07:09:36 [notice] 26#26: exit
+2021/07/07 07:09:36 [notice] 27#27: exit
+2021/07/07 07:09:36 [notice] 24#24: exit
+2021/07/07 07:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/07/07 07:09:36 [notice] 1#1: worker process 24 exited with code 0
+2021/07/07 07:09:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/07 07:09:36 [notice] 1#1: worker process 26 exited with code 0
+2021/07/07 07:09:36 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 07:09:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:09:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/07/07 07:11:35 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:11:35 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:11:35 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:11:35 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:11:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:11:35 [notice] 1#1: start worker processes
+2021/07/07 07:11:35 [notice] 1#1: start worker process 24
+2021/07/07 07:11:35 [notice] 1#1: start worker process 25
+2021/07/07 07:11:35 [notice] 1#1: start worker process 26
+2021/07/07 07:11:35 [notice] 1#1: start worker process 27
+2021/07/07 07:11:53 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:11:54 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:11:55 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:11:55 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:11:55 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.21.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.21.0.3:9000", host: "127.0.0.1"
+2021/07/07 07:12:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:12:21 [notice] 24#24: gracefully shutting down
+2021/07/07 07:12:21 [notice] 25#25: gracefully shutting down
+2021/07/07 07:12:21 [notice] 25#25: exiting
+2021/07/07 07:12:21 [notice] 26#26: gracefully shutting down
+2021/07/07 07:12:21 [notice] 26#26: exiting
+2021/07/07 07:12:21 [notice] 27#27: gracefully shutting down
+2021/07/07 07:12:21 [notice] 27#27: exiting
+2021/07/07 07:12:21 [notice] 25#25: exit
+2021/07/07 07:12:21 [notice] 26#26: exit
+2021/07/07 07:12:21 [notice] 27#27: exit
+2021/07/07 07:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/07/07 07:12:21 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 07:12:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/07/07 07:12:21 [notice] 1#1: worker process 25 exited with code 0
+2021/07/07 07:12:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/07 07:12:21 [notice] 1#1: worker process 26 exited with code 0
+2021/07/07 07:12:21 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:13:29 [notice] 1#1: using the "epoll" event method
+2021/07/07 07:13:29 [notice] 1#1: nginx/1.21.1
+2021/07/07 07:13:29 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/07 07:13:29 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/07 07:13:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/07 07:13:29 [notice] 1#1: start worker processes
+2021/07/07 07:13:29 [notice] 1#1: start worker process 25
+2021/07/07 07:13:29 [notice] 1#1: start worker process 26
+2021/07/07 07:13:29 [notice] 1#1: start worker process 27
+2021/07/07 07:13:29 [notice] 1#1: start worker process 28
+2021/07/07 07:16:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/07 07:16:49 [notice] 28#28: gracefully shutting down
+2021/07/07 07:16:49 [notice] 28#28: exiting
+2021/07/07 07:16:49 [notice] 25#25: gracefully shutting down
+2021/07/07 07:16:49 [notice] 26#26: gracefully shutting down
+2021/07/07 07:16:49 [notice] 26#26: exiting
+2021/07/07 07:16:49 [notice] 27#27: gracefully shutting down
+2021/07/07 07:16:49 [notice] 27#27: exiting
+2021/07/07 07:16:49 [notice] 28#28: exit
+2021/07/07 07:16:49 [notice] 25#25: exiting
+2021/07/07 07:16:49 [notice] 25#25: exit
+2021/07/07 07:16:49 [notice] 26#26: exit
+2021/07/07 07:16:49 [notice] 27#27: exit
+2021/07/07 07:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/07/07 07:16:49 [notice] 1#1: worker process 25 exited with code 0
+2021/07/07 07:16:49 [notice] 1#1: worker process 27 exited with code 0
+2021/07/07 07:16:49 [notice] 1#1: worker process 28 exited with code 0
+2021/07/07 07:16:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/07 07:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/07/07 07:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/07 07:16:49 [notice] 1#1: worker process 26 exited with code 0
+2021/07/07 07:16:49 [notice] 1#1: exit
